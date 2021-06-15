@@ -1,21 +1,20 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-
 
 namespace StringConverter
 {
     internal interface IConverter
     {
-        bool FindElementCondition(IEnumerable<char> primitiveArray, char primitiveSymbol);
+        bool FindElementCondition(String InputString, char primitiveSymbol);
+        string PerformConvertationJob(String inputString);
     }
 
     internal class StringConverterClass : IConverter
     {
-        public bool FindElementCondition(IEnumerable<char> primitiveArray, char primitiveSymbol)
+        public bool FindElementCondition(String InputString, char primitiveSymbol)
         {
             int counterPrimitiveCondition = 0;
-            foreach (var value in primitiveArray)
+            foreach (var value in InputString)
             {
                 if (value == primitiveSymbol) 
                     counterPrimitiveCondition++;
@@ -30,11 +29,10 @@ namespace StringConverter
         public string PerformConvertationJob(String inputString)
         {
             string outFormattedString = "";
-            var stringMem = inputString.ToUpper().ToList();
-            
-            foreach (var currentPrimitive in stringMem)
+
+            foreach (var currentPrimitive in inputString)
             {
-                if (FindElementCondition(stringMem, currentPrimitive))
+                if (FindElementCondition(inputString, currentPrimitive))
                     outFormattedString += ")";
                 else
                     outFormattedString += "(";
