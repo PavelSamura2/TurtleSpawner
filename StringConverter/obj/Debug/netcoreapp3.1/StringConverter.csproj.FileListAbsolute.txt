@@ -11,3 +11,16 @@ C:\Users\khrap\Desktop\StringConverter\obj\Debug\netcoreapp3.1\StringConverter.c
 C:\Users\khrap\Desktop\StringConverter\obj\Debug\netcoreapp3.1\StringConverter.dll
 C:\Users\khrap\Desktop\StringConverter\obj\Debug\netcoreapp3.1\StringConverter.pdb
 C:\Users\khrap\Desktop\StringConverter\obj\Debug\netcoreapp3.1\StringConverter.genruntimeconfig.cache
+C:\Users\khrap\Desktop\TurtleSpawner\StringConverter\bin\Debug\netcoreapp3.1\StringConverter.exe
+C:\Users\khrap\Desktop\TurtleSpawner\StringConverter\bin\Debug\netcoreapp3.1\StringConverter.deps.json
+C:\Users\khrap\Desktop\TurtleSpawner\StringConverter\bin\Debug\netcoreapp3.1\StringConverter.runtimeconfig.json
+C:\Users\khrap\Desktop\TurtleSpawner\StringConverter\bin\Debug\netcoreapp3.1\StringConverter.runtimeconfig.dev.json
+C:\Users\khrap\Desktop\TurtleSpawner\StringConverter\bin\Debug\netcoreapp3.1\StringConverter.dll
+C:\Users\khrap\Desktop\TurtleSpawner\StringConverter\bin\Debug\netcoreapp3.1\StringConverter.pdb
+C:\Users\khrap\Desktop\TurtleSpawner\StringConverter\obj\Debug\netcoreapp3.1\StringConverter.csproj.AssemblyReference.cache
+C:\Users\khrap\Desktop\TurtleSpawner\StringConverter\obj\Debug\netcoreapp3.1\StringConverter.AssemblyInfoInputs.cache
+C:\Users\khrap\Desktop\TurtleSpawner\StringConverter\obj\Debug\netcoreapp3.1\StringConverter.AssemblyInfo.cs
+C:\Users\khrap\Desktop\TurtleSpawner\StringConverter\obj\Debug\netcoreapp3.1\StringConverter.csproj.CoreCompileInputs.cache
+C:\Users\khrap\Desktop\TurtleSpawner\StringConverter\obj\Debug\netcoreapp3.1\StringConverter.dll
+C:\Users\khrap\Desktop\TurtleSpawner\StringConverter\obj\Debug\netcoreapp3.1\StringConverter.pdb
+C:\Users\khrap\Desktop\TurtleSpawner\StringConverter\obj\Debug\netcoreapp3.1\StringConverter.genruntimeconfig.cache

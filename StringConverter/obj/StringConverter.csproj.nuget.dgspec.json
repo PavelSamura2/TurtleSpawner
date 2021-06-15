@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\khrap\\Desktop\\StringConverter\\StringConverter.csproj": {}
+    "C:\\Users\\khrap\\Desktop\\TurtleSpawner\\StringConverter\\StringConverter.csproj": {}
   },
   "projects": {
-    "C:\\Users\\khrap\\Desktop\\StringConverter\\StringConverter.csproj": {
+    "C:\\Users\\khrap\\Desktop\\TurtleSpawner\\StringConverter\\StringConverter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\khrap\\Desktop\\StringConverter\\StringConverter.csproj",
+        "projectUniqueName": "C:\\Users\\khrap\\Desktop\\TurtleSpawner\\StringConverter\\StringConverter.csproj",
         "projectName": "StringConverter",
-        "projectPath": "C:\\Users\\khrap\\Desktop\\StringConverter\\StringConverter.csproj",
+        "projectPath": "C:\\Users\\khrap\\Desktop\\TurtleSpawner\\StringConverter\\StringConverter.csproj",
         "packagesPath": "C:\\Users\\khrap\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\khrap\\Desktop\\StringConverter\\obj\\",
+        "outputPath": "C:\\Users\\khrap\\Desktop\\TurtleSpawner\\StringConverter\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

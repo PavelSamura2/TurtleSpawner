@@ -1,33 +1,25 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Globalization;
 using System.Linq;
-using StringConverter;
+
 
 namespace StringConverter
 {
     internal interface IConverter
     {
-        List<char> StringImp();
         bool FindElementCondition(IEnumerable<char> primitiveArray, char primitiveSymbol);
     }
 
     internal class StringConverterClass : IConverter
     {
-        private readonly string _inputString;
-        public StringConverterClass(string inputString)
-        {
-            this._inputString = inputString;
-        }
-        public List<char> StringImp()
-        {
-            var stringToCharArray = _inputString.ToUpper().ToList();
-            return stringToCharArray;
-        }
-
         public bool FindElementCondition(IEnumerable<char> primitiveArray, char primitiveSymbol)
         {
-            int counterPrimitiveCondition = primitiveArray.Count(value => value == primitiveSymbol);
+            int counterPrimitiveCondition = 0;
+            foreach (var value in primitiveArray)
+            {
+                if (value == primitiveSymbol) 
+                    counterPrimitiveCondition++;
+            }
 
             if (counterPrimitiveCondition > 1)
                 return true;
@@ -35,10 +27,10 @@ namespace StringConverter
                 return false;
         }
 
-        public string StringFormatted()
+        public string PerformConvertationJob(String inputString)
         {
             string outFormattedString = "";
-            var stringMem = StringImp();
+            var stringMem = inputString.ToUpper().ToList();
             
             foreach (var currentPrimitive in stringMem)
             {
@@ -48,6 +40,7 @@ namespace StringConverter
                     outFormattedString += "(";
             }
             return outFormattedString;
+            
         }
     }
 
@@ -59,8 +52,8 @@ class Program
             Console.WriteLine("Press enter input string: ");
             var inputString = Console.ReadLine();
             
-            var converter = new StringConverterClass(inputString);
-            Console.WriteLine("Formatted string: " + converter.StringFormatted());
+            var converter = new StringConverterClass();
+            Console.WriteLine("Formatted string: " + converter.PerformConvertationJob(inputString));
         }
     }
 }
